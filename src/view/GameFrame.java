@@ -35,15 +35,15 @@ public class GameFrame extends JFrame
 
         editGameMenu();
 
-        if(w == 8)
+        if(h == 8)
         {
             getBasic().setIcon(new ImageIcon(getLoadData().getListImage().get("symbol")));
         }
-        else if(w == 16)
+        else if(h == 16)
         {
             getNormal().setIcon(new ImageIcon(getLoadData().getListImage().get("symbol")));
         }
-        else
+        else 
         {
             getHard().setIcon(new ImageIcon(getLoadData().getListImage().get("symbol")));
         }

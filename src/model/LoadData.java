@@ -47,7 +47,7 @@ public class LoadData
             getListImage().put("0", image.getSubimage(0, 0, 13, 23));
             getListImage().put("1", image.getSubimage(13, 0, 13, 23));
             getListImage().put("2", image.getSubimage(26, 0, 13, 23));
-            getListImage().put("3", image.getSubimage(29, 0, 13, 23));
+            getListImage().put("3", image.getSubimage(39, 0, 13, 23));
             getListImage().put("4", image.getSubimage(52, 0, 13, 23));
             getListImage().put("5", image.getSubimage(65, 0, 13, 23));
             getListImage().put("6", image.getSubimage(78, 0, 13, 23));
